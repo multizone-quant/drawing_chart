@@ -17,6 +17,15 @@ import plotly.offline as py_offline
 import plotly.graph_objs as go
 from plotly import tools
 
+#
+# for read data from cvs
+#
+# row : value list
+def get_new_item(keys, row) :
+    data = {}
+    for i in range(len(row)) :
+        data[keys[i]] = row[i]
+    return data
 
 # 첫 줄은 title이라고 가정, 이후에 title 값을 key로 갖는 dict로 읽기
 def read_csv_to_dict(fname) :
