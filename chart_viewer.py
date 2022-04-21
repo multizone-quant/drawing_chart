@@ -2,7 +2,7 @@
 # chart 그리기
 #
 # 보다 자세한 내용을 아래 tistory 참고
-# https://money-expert.tistory.com/36
+# https://money-expert.tistory.com/70
 #
 
 import json
