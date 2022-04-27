@@ -3,7 +3,8 @@
 #
 # 보다 자세한 내용을 아래 tistory 참고
 # https://money-expert.tistory.com/70
-#
+# 숨고
+# https://soomgo.com/review/users/7635294
 
 import json
 import csv
